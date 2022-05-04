@@ -8,8 +8,13 @@ nome_cadastro = input('Olá, tudo bom? Qual é o seu nome?')
 
 print('Agora responda sobre o dia do do mês que você nasceu, ele esta na lista abaixo?')
 
-lista1 = [1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31]
-
+lista1 = []
+numero1 = 1
+while numero1 < 32:
+    resto1 = remainder(numero1,2)
+    if resto1 != 0:
+        lista1.append(numero1)
+    numero1 +=1
 print(lista1)
 
 resposta0 = input('Sim(S) ou Não(N)').upper()
@@ -20,40 +25,72 @@ else:
     r0 = 0
 
 print('E nessa lista, o dia que você nasceu aparece?')
-lista2 = [2,3,6,7,10,11,14,15,18,19,22,23,26,27,30,31]
+
+lista2 = []
+numero2 = 1
+while numero2 < 32:
+    resto2 = remainder(numero2,4)
+    if resto2 != 0 and resto2 != 1:
+        lista2.append(numero2)
+    numero2 +=1
 print(lista2)
 
 resposta1 = input('Sim(S) ou Não(N)').upper()
+
 if resposta1 == 'S':
     r1 = 1
 else:
     r1 = 0
 
 print('E nessa lista, o dia que você nasceu aparece?')
-lista3 = [4,5,6,7,12,13,14,15,20,21,22,23,28,29,30,31]
+
+lista3 = []
+numero3 = 1
+while numero3 < 32:
+    resto3 = remainder(numero3,8)
+    if resto3 != 0 and resto3 != 1 and resto3 != 2 and resto3 != 3:
+        lista3.append(numero3)
+    numero3 +=1
 print(lista3)
 
 resposta2 = input('Sim(S) ou Não(N)').upper()
+
 if resposta2 == 'S':
     r2 = 1
 else:
     r2 = 0
 
 print('E nessa lista, o dia que você nasceu aparece?')
-lista4 = [8,9,10,11,12,13,14,15,24,25,26,27,28,29,30,31]
+
+lista4 = []
+numero4 = 1
+while numero4 < 32:
+    resto4 = remainder(numero4,16)
+    if resto4 != 0 and resto4 != 1 and resto4 != 2 and resto4 != 3 and resto4 != 4 and resto4 != 5 and resto4 != 6 and resto4 != 7:
+        lista4.append(numero4)
+    numero4 +=1
 print(lista4)
 
 resposta3 = input('Sim(S) ou Não(N)').upper()
+
 if resposta3 == 'S':
     r3 = 1
 else:
     r3 = 0
 
 print('E nessa lista, o dia que você nasceu aparece?')
-lista5 = [16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
+
+lista5 = []
+numero5 = 1
+while numero5 < 32:
+    resto5 = remainder(numero5,32)
+    if resto5 != 0 and resto5 != 1 and resto5 != 2 and resto5 != 3 and resto5 != 4 and resto5 != 5 and resto5 != 6 and resto5 != 7 and resto5 != 8 and resto5 != 9 and resto5 != 10 and resto5 != 11 and resto5 != 12 and resto5 != 13 and resto5 != 14 and resto5 != 15:
+        lista5.append(numero5)
+    numero5 +=1
 print(lista5)
 
 resposta4 = input('Sim(S) ou Não(N)').upper()
+
 if resposta4 == 'S':
     r4 = 1
 else:
@@ -131,4 +168,4 @@ else:
 
 
 
-print('Então {}, você faz aniversário {} de {}'.format(nome_cadastro, dia, mes))
+print('Então , {} você faz aniversário {} de {}'.format(nome_cadastro, dia, mes))
