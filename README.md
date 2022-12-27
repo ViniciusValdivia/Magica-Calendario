@@ -41,10 +41,12 @@ And in the third code the idea is to use the transformation of decimal numbers t
 IMPORTANT: This project was made in portuguese (BR).
 
 # Conclusion
-Carrying out the project so far is rewarding and even stimulating to improve and deepen this study.
+Carrying out the project so far is rewarding and even stimulating to improve and deepen this study. In 2021 I participated in an exhibition 
+and presented this project to high school students at the Federal Institute of São Paulo (IFSP) on the Guarulhos campus.
+https://www.youtube.com/watch?v=0IPMY-6vT0U&list=PL7fO0BRIbBh-scPN92m5QSrtAUVG15kRy&index=5
 
 I believe that it is possible to elaborate an even more economical code in its writing, using mathematical ideas.
 
-I still intend to extend the project to the area of ​​data science and present interesting statistical results for those who participated in the magic.
+I still intend to extend the project to the area of data science and present interesting statistical results for those who participated in the magic.
 
 Do you know the birthday paradox?
