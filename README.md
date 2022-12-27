@@ -38,6 +38,7 @@ at the beginning of my studies with little knowledge I was able to elaborate the
 
 And in the third code the idea is to use the transformation of decimal numbers to binary and vice versa.
 
+IMPORTANT: This project was made in portuguese (BR).
 
 # Conclusion
 Carrying out the project so far is rewarding and even stimulating to improve and deepen this study.
